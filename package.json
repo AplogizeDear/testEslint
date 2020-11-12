@@ -21,7 +21,8 @@
   "homepage": "https://github.com/AplogizeDear/testEslint#readme",
   "devDependencies": {
     "commitlint": "^8.2.0",
-    "husky": "^4.3.0"
+    "husky": "^4.3.0",
+    "lint-staged": "^9.5.0"
   },
   "husky": {
     "hooks": {
