@@ -24,7 +24,8 @@
     "eslint": "^6.7.2",
     "commitlint": "^8.2.0",
     "husky": "^4.3.0",
-    "lint-staged": "^9.5.0"
+    "lint-staged": "^9.5.0",
+    "eslint-plugin-react": "^7.17.0"
   },
   "husky": {
     "hooks": {
