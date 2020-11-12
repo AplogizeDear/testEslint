@@ -1,0 +1,30 @@
+{
+  "name": "testeslint",
+  "version": "1.0.0",
+  "description": "测试eslint提交规范",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AplogizeDear/testEslint.git"
+  },
+  "keywords": [
+    "Eslint"
+  ],
+  "author": "zhangqiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AplogizeDear/testEslint/issues"
+  },
+  "homepage": "https://github.com/AplogizeDear/testEslint#readme",
+  "devDependencies": {
+    "husky": "^4.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
