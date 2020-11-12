@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/AplogizeDear/testEslint#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "commitlint": "^8.2.0",
     "husky": "^4.3.0",
